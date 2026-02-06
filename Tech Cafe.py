@@ -95,6 +95,35 @@ elif menu == "System Slowness":
     blog_section(
         "System Slowness",
         "Performance optimization techniques including startup control, disk cleanup, RAM usage, and malware checks."
+        1. Restart the system
+
+Clears temporary memory leaks and stuck processes.
+
+2. Check CPU / RAM usage
+
+Open Task Manager (Ctrl+Shift+Esc)
+
+Look for:
+
+CPU > 80%
+
+Memory > 80%
+
+Disk 100%
+
+👉 End unnecessary high-usage apps.
+
+3. Disable Startup Programs
+
+Task Manager → Startup tab → Disable unwanted apps.
+
+4. Free disk space
+
+Keep at least 20% free space
+
+Run:
+
+cleanmgr
     )
 
 elif menu == "Apps Issue":
@@ -152,4 +181,5 @@ elif menu == "VM Issue":
     )
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
