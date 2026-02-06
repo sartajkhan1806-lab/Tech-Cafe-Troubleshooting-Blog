@@ -111,7 +111,7 @@ Memory > 80%
 
 Disk 100%
 
-👉 End unnecessary high-usage apps.
+ End unnecessary high-usage apps.
 
 3. Disable Startup Programs
 
@@ -181,5 +181,6 @@ elif menu == "VM Issue":
     )
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
 
