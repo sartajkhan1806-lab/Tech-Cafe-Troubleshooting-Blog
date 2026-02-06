@@ -93,8 +93,9 @@ if menu == "Boot Issue":
 
 elif menu == "System Slowness":
     blog_section(
-        "System Slowness , Performance optimization techniques including startup control, disk cleanup, RAM usage, and malware checks."
-        1. Restart the system
+        "System Slowness 
+        "Performance optimization techniques including startup control, disk cleanup, RAM usage, and malware checks."
+        "1. Restart the system
 
 Clears temporary memory leaks and stuck processes.
 
@@ -122,7 +123,7 @@ Keep at least 20% free space
 
 Run:
 
-cleanmgr
+cleanmgr"
     )
 
 elif menu == "Apps Issue":
@@ -180,6 +181,7 @@ elif menu == "VM Issue":
     )
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
