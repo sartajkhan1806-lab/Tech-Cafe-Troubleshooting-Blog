@@ -115,7 +115,7 @@ Disk 100%
 
 3. Disable Startup Programs
 
-Task Manager → Startup tab → Disable unwanted apps.
+Task Manager  Startup tab  Disable unwanted apps.
 
 4. Free disk space
 
@@ -181,6 +181,7 @@ elif menu == "VM Issue":
     )
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
